@@ -26,7 +26,7 @@ bot = Client(
     session_name,  # Dynamic session name based on token
     api_id    = API_ID, 
     api_hash  = API_HASH, 
-    bot_token = 7071426376:AAFSqYnWd6jrMTYdWD79CIzpprQk94CXFsM, 
+    bot_token = "7071426376:AAFSqYnWd6jrMTYdWD79CIzpprQk94CXFsM", 
     plugins   = plugins 
 )
 
