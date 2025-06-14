@@ -10,7 +10,7 @@ with open("FILES/config.json", "r", encoding="utf-8") as f:
     DATA      = json.load(f)
     API_ID    = DATA["API_ID"]
     API_HASH  = DATA["API_HASH"]
-    BOT_TOKEN = DATA["BOT_TOKEN"]
+    BOT_TOKEN = DATA["7071426376:AAFSqYnWd6jrMTYdWD79CIzpprQk94CXFsM"]
 
 user = Client( 
             "Scrapper", 
@@ -26,7 +26,7 @@ bot = Client(
     session_name,  # Dynamic session name based on token
     api_id    = API_ID, 
     api_hash  = API_HASH, 
-    bot_token = BOT_TOKEN, 
+    bot_token = 7071426376:AAFSqYnWd6jrMTYdWD79CIzpprQk94CXFsM, 
     plugins   = plugins 
 )
 
